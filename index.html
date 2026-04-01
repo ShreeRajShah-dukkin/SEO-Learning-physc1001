@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Physc1001 - Psychology & Mental Wellness</title>
+  <link rel="stylesheet" href="index.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Lora:wght@400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- 🔹 HEADER/NAVBAR -->
+<header>
+  <div class="navbar-container">
+    <div class="logo-section">
+      <button id="menu-btn" class="menu-btn" aria-label="Toggle menu">
+        <i class="fas fa-bars"></i>
+      </button>
+      <h1 id="blog-title" class="blog-title">
+        <i class="fas fa-brain"></i> Physc1001
+      </h1>
+      <p class="tagline">Understanding the Mind</p>
+    </div>
+  </div>
+</header>
+
+<!-- 🔹 SIDEBAR -->
+<aside id="sidebar" class="sidebar hidden">
+  <div class="sidebar-header">
+    <h2>Topics</h2>
+    <button id="close-sidebar" class="close-btn" aria-label="Close sidebar">
+      <i class="fas fa-times"></i>
+    </button>
+  </div>
+  <nav class="sidebar-nav">
+    <ul>
+      <li><button onclick="loadTopic('overthinking')" class="topic-btn">
+        <i class="fas fa-infinite"></i> Overthinking
+      </button></li>
+      <li><button onclick="loadTopic('anger')" class="topic-btn">
+        <i class="fas fa-fire"></i> Anger Management
+      </button></li>
+      <li><button onclick="loadTopic('procrastination')" class="topic-btn">
+        <i class="fas fa-clock"></i> Procrastination
+      </button></li>
+    </ul>
+  </nav>
+</aside>
+
+<!-- 🔹 OVERLAY -->
+<div id="overlay" class="overlay hidden"></div>
+
+<!-- 🔹 MAIN CONTENT -->
+<main class="main-content">
+  <article class="article-container">
+    
+    <div class="article-header">
+      <h1 id="title" class="article-title">Welcome to Physc1001</h1>
+      <p id="author" class="article-author">
+        <i class="fas fa-user-circle"></i> Physc1001
+      </p>
+      <div class="article-meta">
+        <span class="read-time"><i class="fas fa-book-open"></i> Select a topic to begin</span>
+      </div>
+    </div>
+
+    <div id="images" class="images-gallery">
+      <img id="img1" class="gallery-img" alt="Article image 1">
+    </div>
+
+    <div class="article-body">
+      <p id="content" class="article-content">
+        Welcome to <strong>Physc1001</strong>, your dedicated space for exploring the fascinating world of psychology and mental wellness. 
+        Here, we delve deep into the human mind, understanding the emotions, behaviors, and thoughts that shape our lives.
+        <br><br>
+        Select a topic from the menu to begin your journey of self-discovery and mental understanding.
+      </p>
+    </div>
+
+  </article>
+</main>
+
+<!-- 🔹 FOOTER -->
+<footer class="footer">
+  <p>&copy; 2024 Physc1001. All rights reserved. | Exploring the Mind, Understanding Ourselves</p>
+</footer>
+
+<script src="data.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
