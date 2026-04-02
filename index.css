@@ -420,6 +420,9 @@ header {
   }
 
   .gallery-img {
-    height: 200px;
+    width: 100%;
+    height: auto;
+    aspect-ratio: auto;
+    max-height: none;
   }
 }
