@@ -1,7 +1,7 @@
 const topics = {
   overthinking: {
     title: "Overthinking: The Silent Loop Where the Mind Turns Against Itself",
-    author: "By Physc1001",
+    author: "Physc1001",
     content: `Overthinking is not simply excessive thought—it is a condition where thinking loses direction and becomes self-referential. The mind, designed to solve problems, begins to analyze itself, creating loops that do not lead to resolution but to exhaustion.
 
     <strong>The Nature of Overthinking:</strong><br>
@@ -187,7 +187,7 @@ const topics = {
 
   anger: {
   title: "Anger: The Psychology of Power, Control, and the Hidden Layers of Emotional Energy",
-  author: "By Physc1001",
+  author: "Physc1001",
   content: `Anger is often misunderstood as a destructive force, but at its core, it is neither good nor bad—it is information. It is the mind’s signal that something feels wrong, threatened, or violated. However, when this signal is misunderstood or unmanaged, it transforms from a protective response into a destructive pattern.
 
   <strong>The Nature of Anger:</strong><br>
@@ -392,7 +392,7 @@ const topics = {
 },
  procrastination: {
   title: "Procrastination: The Psychology of Avoidance, Emotional Resistance, and Delayed Action",
-  author: "By Physc1001",
+  author: "Physc1001",
   content: `Procrastination is often misunderstood as laziness, but in reality, it is a deeply psychological behavior rooted in emotional avoidance. It is not a failure of time management—it is a failure of emotional regulation.
 
   At its core, procrastination is the act of delaying tasks not because they are difficult, but because they trigger discomfort. The mind prioritizes immediate emotional relief over long-term benefit.
@@ -586,7 +586,7 @@ const topics = {
 },
  dostoevsky_psychology: {
   title: "Fyodor Dostoevsky: The Psychology of Guilt, Inner Conflict, and the Fragmented Human Mind",
-  author: "By Physc1001",
+  author: "Physc1001",
   content: `Fyodor Dostoevsky’s work is not merely literature—it is psychological exploration in its rawest form. His characters are not heroes or villains; they are contradictions. Through them, Dostoevsky reveals a fundamental truth: humans are not rational beings—we are conflicted ones.
 
   <strong>The Nature of Dostoevskian Psychology:</strong><br>
@@ -774,7 +774,7 @@ const topics = {
 },
   kafka_psychology: {
   title: "Franz Kafka: The Psychology of Alienation, Anxiety, and the Collapse of Identity",
-  author: "By Physc1001",
+  author: "Physc1001",
   content: `Franz Kafka’s work represents one of the most profound psychological explorations of modern existence. His writing captures a state of mind where individuals feel trapped, powerless, and disconnected from both society and themselves.
 
   Kafka does not describe extraordinary worlds—he reveals the psychological reality of ordinary life when stripped of meaning, control, and certainty.
@@ -963,7 +963,7 @@ const topics = {
 },
 kafka_psychology: {
   title: "Franz Kafka: The Psychology of Alienation, Anxiety, and the Collapse of Identity",
-  author: "By Physc1001",
+  author: "Physc1001",
   content: `Franz Kafka’s work represents one of the most profound psychological explorations of modern existence. His writing captures a state of mind where individuals feel trapped, powerless, and disconnected from both society and themselves.
 
   Kafka does not describe extraordinary worlds—he reveals the psychological reality of ordinary life when stripped of meaning, control, and certainty.
@@ -1152,7 +1152,7 @@ kafka_psychology: {
 },
 dream_inversion: {
   title: "Dream Inversion: The Psychology Behind Reversed Realities in Dreams",
-  author: "By Physc1001",
+  author: "Physc1001",
   content: `Dream inversion is a fascinating psychological phenomenon where elements of reality appear reversed, distorted, or symbolically flipped within dreams. It is not just random imagination—rather, it reflects how the brain processes emotions, memories, and unresolved conflicts during sleep.
 
   <strong>What is Dream Inversion?</strong><br>
